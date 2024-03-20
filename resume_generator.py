@@ -2,7 +2,7 @@ import markdown2
 import pdfkit
 
 def md_to_pdf(md_file, pdf_file):
-    path_to_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
+    path_to_wkhtmltopdf = r'<Add path to wkhtmltopdf>'
 
 # Configure pdfkit to use the correct wkhtmltopdf executable
     config = pdfkit.configuration(wkhtmltopdf=path_to_wkhtmltopdf)
