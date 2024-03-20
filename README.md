@@ -60,6 +60,4 @@ output_pdf_file = 'Resume.pdf'
 md_to_pdf(input_md_file, output_pdf_file)
 ```
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
